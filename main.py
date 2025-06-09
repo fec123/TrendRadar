@@ -14,7 +14,7 @@ import pytz
 # 配置常量
 CONFIG = {
     "FEISHU_SEPARATOR": "━━━━━━━━━━━━━━━━━━━",  # 飞书消息中，每个频率词之间的分割线，注意，其它类型的分割线可能会被飞书过滤而不显示
-    "REQUEST_INTERVAL": 900,  # 毫秒
+    "REQUEST_INTERVAL": 3600,  # 毫秒
     "FEISHU_REPORT_TYPE": "both",  # 可选: "current", "daily", "both"
     "RANK_THRESHOLD": 5,  # 排名阈值，前5名使用红色加粗显示
     "USE_PROXY": True,  # 是否启用本地代理
